@@ -1,0 +1,7 @@
+.headerMenu {
+    @apply gap-2 items-center hidden lg:flex;
+}
+
+.headerMenuItem{
+    @apply font-medium text-base text-philippine-bronze p-2 font-roboto
+}
