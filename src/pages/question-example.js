@@ -1,7 +1,7 @@
 // pages/posts.js
 import React, {useEffect, useRef, useState} from 'react';
 
-export default function Js({posts}) {
+export default function QuestionExample({posts}) {
     const [questions, setQuestions] = useState([]);
     const [activeQuestionId, setActiveQuestionId] = useState(0);
     const [showId, setShowId] = useState(0);
