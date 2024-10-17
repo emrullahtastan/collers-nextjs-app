@@ -19,6 +19,10 @@ const config: Config = {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(155deg, #fffbec 55%, #fef3c7 10%)',
+        'custom-gradient-two': 'linear-gradient(140deg, #fffbec 40%, #fef3c7 10%)',
+      },
     },
   },
   plugins: [],
