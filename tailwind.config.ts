@@ -14,7 +14,8 @@ const config: Config = {
         'floral-white':'#fffceb',
         'lemon-chiffon':'#FEF3C7',
         'philippine-bronze':'#78350F',
-        'dark-jungle-green':'#0F172A'
+        'dark-jungle-green':'#0F172A',
+        'yellow':'#FDE68A'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
