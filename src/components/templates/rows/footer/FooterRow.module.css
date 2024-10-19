@@ -1,0 +1,8 @@
+.footerMenuTitle{
+    @apply font-medium text-base py-4;
+}
+
+.footerMenuItem {
+    @apply py-3 font-normal;
+}
+

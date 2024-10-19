@@ -3,7 +3,7 @@
 }
 
 .headerMenuIsMobile {
-    @apply gap-2 items-center flex flex-col absolute top-14 left-0 right-0 mx-auto bg-floral-white h-full;
+    @apply gap-2 items-center flex flex-col absolute top-14 left-0 right-0 mx-auto bg-floral-white h-full z-10;
 }
 
 .headerMenuItem {

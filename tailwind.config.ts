@@ -16,7 +16,8 @@ const config: Config = {
         'philippine-bronze':'#78350F',
         'dark-jungle-green':'#0F172A',
         'yellow':'#FDE68A',
-        'independence':'#475569'
+        'independence':'#475569',
+        'charcoal':'#334155'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
