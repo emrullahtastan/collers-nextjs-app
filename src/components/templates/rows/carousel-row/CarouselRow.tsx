@@ -72,7 +72,19 @@ export const CarouselRow = () => {
                                 slidesPerView: 1.3,
                                 spaceBetween: 40,
                             },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 10,
+                            },
                             1024: {
+                                slidesPerView: 3.5,
+                                spaceBetween: 300,
+                            },
+                            1228: {
+                                slidesPerView: 4,
+                                spaceBetween: 300,
+                            },
+                            1336: {
                                 slidesPerView: 4,
                                 spaceBetween: 100,
                             },
