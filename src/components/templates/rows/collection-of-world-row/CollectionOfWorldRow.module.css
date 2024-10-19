@@ -1,0 +1,4 @@
+.leftMenuItemLink{
+    @apply flex gap-2 flex-row items-center p-4 w-max md:w-[250px] h-[56px] rounded-[8px] hover:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),_0_0px_4px_rgba(0,0,0,0.07)] hover:after:flex hover:after:justify-between hover:after:content-['➜'];
+}
+

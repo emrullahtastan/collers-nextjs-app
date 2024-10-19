@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,7 +16,8 @@ const config: Config = {
         'dark-jungle-green':'#0F172A',
         'yellow':'#FDE68A',
         'independence':'#475569',
-        'charcoal':'#334155'
+        'charcoal':'#334155',
+        'azureish-white':'#E2E8F0'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
@@ -25,9 +25,9 @@ const config: Config = {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(155deg, #fffbec 55%, #fef3c7 10%)',
         'custom-gradient-two': 'linear-gradient(140deg, #fffbec 40%, #fef3c7 10%)',
+        'waves': "url('/assets/waves.png')",
       },
     },
   },
-  plugins: [],
 };
 export default config;
