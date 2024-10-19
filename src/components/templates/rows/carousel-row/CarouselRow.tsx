@@ -57,10 +57,10 @@ export const CarouselRow = () => {
                 <div>
                     <Swiper
                         modules={[Navigation]}
-                        spaceBetween={100} // Slaytlar arasındaki boşluğu belirler
-                        slidesPerView={4} // Her seferinde 2.5 slayt gösterir
-                        centeredSlides={true} // Ortadaki slaytı merkeze alır
-                        loop={true} // Döngü sağlar
+                        spaceBetween={100}
+                        slidesPerView={4}
+                        centeredSlides={true}
+                        loop={true}
                         navigation={{
                             prevEl: '.swiper-button-prev',
                             nextEl: '.swiper-button-next',
@@ -70,11 +70,7 @@ export const CarouselRow = () => {
                         breakpoints={{
                             320: {
                                 slidesPerView: 1.3,
-                                spaceBetween: 40, // Mobilde slaytlar arasındaki boşluk
-                            },
-                            640: {
-                                slidesPerView: 2, // Küçük tabletlerde 2 slayt göster
-                                spaceBetween: 15,
+                                spaceBetween: 40,
                             },
                             1024: {
                                 slidesPerView: 4,
