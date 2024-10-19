@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
 type Profile = {
     image: string;
     name: string;
@@ -17,11 +15,11 @@ export const CarouselCard: React.FC<CarouselCardProps> = ({logo, description, pr
     return (
         <>
             <div
-                className={'box-border flex flex-col justify-between p-8 isolate w-[364px] h-[430px] bg-white border border-blue-gray-200 rounded-[20px] order-1 shadow-lg'}>
+                className={'box-border flex flex-col justify-between p-8 isolate w-[320px] h-[300px] md:w-[364px] md:h-[430px] bg-white border border-blue-gray-200 rounded-[20px] order-1 shadow-lg'}>
                 <div className={'pb-4'}>
                     <img src={logo}/>
                 </div>
-                <div className={'text-2xl leading-9'}>
+                <div className={'text-base md:text-2xl md:leading-9'}>
                     {description}
                 </div>
                 <div className={'pt-4 flex gap-4 items-center '}>

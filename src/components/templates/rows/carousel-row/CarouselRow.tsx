@@ -40,10 +40,10 @@ export const CarouselRow = () => {
     return (
         <div className={'mb-10'}>
             <div className={'container mx-auto flex justify-between'}>
-                <Title className={'text-[56px] font-bold'}>
+                <Title className={'text-[32px] md:text-[56px] font-bold text-center md:text-left w-full'}>
                     Because they love us
                 </Title>
-                <div className={'flex gap-4 items-center'}>
+                <div className={'gap-4 items-center hidden md:flex'}>
                     <div className="swiper-button-prev cursor-pointer">
                         <LeftIcon/>
                     </div>
@@ -52,8 +52,8 @@ export const CarouselRow = () => {
                     </div>
                 </div>
             </div>
-            <div className={'mt-[-370px]'}>
-                <div className={'bg-yellow h-[400px] mx-4'} style={{position: 'relative', bottom:'-370px'}}></div>
+            <div className={'mt-[-280px] md:mt-[-370px]'}>
+                <div className={'bg-yellow h-[300px] md:h-[400px] md:mx-4 relative bottom-[-280px] md:bottom-[-370px]'}></div>
                 <div>
                     <Swiper
                         modules={[Navigation]}
@@ -67,6 +67,20 @@ export const CarouselRow = () => {
                         }}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
+                        breakpoints={{
+                            320: {
+                                slidesPerView: 1.3,
+                                spaceBetween: 40, // Mobilde slaytlar arasındaki boşluk
+                            },
+                            640: {
+                                slidesPerView: 2, // Küçük tabletlerde 2 slayt göster
+                                spaceBetween: 15,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                                spaceBetween: 100,
+                            },
+                        }}
                     >
                         {data?.map((item, key) => {
                             return (
