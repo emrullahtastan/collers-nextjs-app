@@ -15,7 +15,8 @@ const config: Config = {
         'lemon-chiffon':'#FEF3C7',
         'philippine-bronze':'#78350F',
         'dark-jungle-green':'#0F172A',
-        'yellow':'#FDE68A'
+        'yellow':'#FDE68A',
+        'independence':'#475569'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
